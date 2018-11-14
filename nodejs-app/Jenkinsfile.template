@@ -33,7 +33,7 @@ pipeline {
         branch 'master'
       }
     options {
-        timeout(time: 60, unit: 'SECONDS') 
+        timeout(time: 6, unit: 'SECONDS') 
       }
       input {
         message "Should we deploy?"
