@@ -12,7 +12,7 @@ pipeline {
       agent {
         kubernetes {
           label 'nodejs-testcafe'
-          yaml testPodYaml
+          yaml 'testPodYaml'
           }
           
         }
